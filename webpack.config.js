@@ -23,6 +23,7 @@ module.exports = {
         compress: true,
         hot: true,
     },
+    target: 'es5',
     // Rules of how webpack will take our files, complie & bundle them for the browser
     module: {
         rules: [
