@@ -5,7 +5,15 @@
             "@babel/preset-env",
             {
                 "modules": false,
-                "loose": false
+                "targets": {
+                    "browsers": [
+                        "> 1%",
+                        "Firefox >= 52", // old ESR
+                        "IE 11"
+                    ],
+                  "uglify": true
+                },
+                "useBuiltIns": true
             }
         ]
     ],

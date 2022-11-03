@@ -12,6 +12,7 @@ yarn-error.log*
 
 
 node_modules/
+build/
 dist/
 target/
 .vscode/
