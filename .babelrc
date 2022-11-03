@@ -10,8 +10,6 @@
         ]
     ],
     "plugins": [
-        "babel-plugin-myPlugin",
-        "@babel/plugin-transform-runtime",
         "transform-class-properties"
     ],
     "env": {
